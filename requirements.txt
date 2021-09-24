@@ -1,2 +1,2 @@
 Use this link to navigate to packages you might need to install for this game:
-https://github.com/theskumar/python-dotenv/blob/master/requirements.txt
+[https://github.com/theskumar/python-dotenv/blob/master/requirements.txt] (https://github.com/theskumar/python-dotenv/blob/master/requirements.txt)
