@@ -1,13 +1,5 @@
 # "Rock, Paper, Scissors" Exercise
 
-## Learning Objectives
-
-  + Gain familiarity with the Python programming language, focusing on variables and conditional logic.
-  + Learn how to process and validate user inputs in Python.
-  + Learn how to import and access functionality provided by built-in Python modules and third-party Python packages.
-  + Practice editing, saving, and executing local Python programs.
-  + Practice incorporating version control into your local development process.
-
 ## Prerequisites
 
   + ["Run the App" Exercise](/exercises/run-the-app/README.md)
