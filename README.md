@@ -121,24 +121,27 @@ Thanks for playing. Please play again!
 
 ### Customizing the Player Name
 
-Finally, update your program to allow the user to configure their own player name by passing an environment variable called "PLAYER_NAME" stored in a local ".env" file.
-
 In the root directory of your local repository, create a new file called ".env", and update the contents of the ".env" file to specify your desired username (then make sure to SAVE the ".env" file aftwards):
 
 Update your program to allow the user to configure their own player name by passing an environment variable called "PLAYER_NAME" stored in a local ".env" file.
 
-PLAYER_NAME= "MAAHIRA"
-NOTE: the ".env" file is usually the place for passing configuration options and secret credentials, so as a best practice we don't upload this file to version control (which is accomplished via a corresponding entry in the ".gitignore" file). This means we need to instruct each person who uses our code needs to create their own local ".env" file.
+`PLAYER_NAME= "MAAHIRA"`
+
+>NOTE: the ".env" file is usually the place for passing configuration options and secret credentials, so as a best practice we don't upload this file to version control (which is accomplished via a corresponding entry in the ".gitignore" file). This means we need to instruct each person who uses our code needs to create their own local ".env" file.
 
 Make sure the repository's ".gitignore" file includes an entry about the ".env" file, and ensure the ".gigitnore" file is saved and committed before adding a ".env" file. This should already be the case if you added a Python-flavored ".gitignore" file during the repo creation step.
 
 
 # Usage
-*Run the Python script: python game.py
 
-*Choose either 'rock', 'paper' or 'scissors' when prompted
+Run the Python script: 
+`python game.py`
+
+Choose either 'rock', 'paper' or 'scissors' when prompted
 
 >NOTE: 
->If you want to play again, run the python script: python game.py 
+>If you want to play again, run the python script: 
+> `python game.py`
 >If your choice is invalid, the computer will not be able to determine a result of the game and will instead tell you that your choice is invalid (ensure you are typing in lowercase). 
->If you want to exit the game, run the command: exit ()
+>If you want to exit the game, run the command:
+> `exit ()`
